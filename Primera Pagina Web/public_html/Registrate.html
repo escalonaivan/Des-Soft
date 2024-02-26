@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TodoProgramacion</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <h1>TODO EN PROGRAMACIÓN</h1>
+        <!--Menu Principal-->
+        <div id="container">
+            <div id="menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Quienes_Somos.html">Quienes Somos</a></li>
+                        <li><a href="Productos.html">Productos</a></li>
+                        <li><a href="Login.html">Iniciar Sesión</a></li>                                             
+                    </ul>
+            </div>
+        </div>
+        <!--Fin Menu Principal-->
+        <div id="formulario">
+            <h2>¡Registrate!</h2>
+            <!--Formulario-->
+            <form action="procesar_registro.php" method="post">
+                <div>
+                    <label for="usuario">Usuario:</label>
+                    <input type="text" id="usuario" name="usuario" required>
+                </div>
+                <div>
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="clave" name="clave" required>
+                </div>
+                <div>
+                    <label for="confirm_password">Confirmar Contraseña:</label>
+                    <input type="password" id="confirm_clave" name="confirm_clave" required>
+                </div>
+                <div>
+                    <button type="submit">Registrarse</button>
+                </div>
+            </form>
+        </div>  
+         
+    </body>
+</html>
