@@ -4,49 +4,85 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to c
 Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
 -->
 <html>
-    <head>
-        <title>TodoProgramacion</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
 
-    <body>
-        <h1>TODO EN PROGRAMACIÓN</h1>
-        <!--Menu Principal-->
-        <div id="container">
-            <div id="menu">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="Quienes_Somos.html">Quienes Somos</a></li>
-                        <li><a href="Productos.html">Productos</a></li>
-                        <li><a href="Login.html">Iniciar Sesión</li>                                             
-                    </ul>
+<head>
+    <title>TodoProgramacion</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <h1>Solicita tu servicio contable</h1>
+    <!--Menu Principal-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Quienes_Somos.html">Quien Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+
             </div>
         </div>
-        <!--Fin Menu Principal-->
+    </nav>
+    <!--Fin Menu Principal-->
 
-        <!--Cuerpo-->
-        <div id="cuerpo">
-            <table>
-                    <h2>Nuestros Servicios</h2>
+    <!--Encabezado-->
+    <div id="Encabezado">
+        <ul>
+            <li>Confiables</li>
+            <li>Asesorias</li>
+            <li>Maneja la contabilidad de tu negocio</li>
+        </ul>
+        <button class="btn btn-primary" type="submit">Solicita Tu Cotizacion</button>
 
-                <span id="Servicios1">       
-                    <h3>¿Que Necesitas?</h3>
-                    <p>Describe lo que necesitas, publica tu proyecto y recibe propuestas al instante </p>
-                </span>
 
-                <span id="Servicios2">  
-                    <h3>Contactanos</h3>
-                    <p>Chatea con nuestros Freelancers y elige al mejor profesional para tu proyecto </p>
-                </span>
-                    
-                <span id="Servicios3">  
-                    <h3>Confiabilidad</h3>
-                    <p>Solo pagas cuando estes 100% satisfecho con tu trabajo </p>
-                </span>
-            </table>
-            
+    </div>
 
-        </div>
-    </body>
+    <!--Seccion de servicios-->
+
+    <div class="servicios">
+        <table>
+            <h2>Nuestros Servicios</h2>
+
+            <span id="Servicios1">
+                <h3>¿Que Necesitas?</h3>
+                <p>Describe lo que necesitas, publica tu proyecto y recibe propuestas al instante </p>
+            </span>
+
+            <span id="Servicios2">
+                <h3>Contactanos</h3>
+                <p>Chatea con nuestros Freelancers y elige al mejor profesional para tu proyecto </p>
+            </span>
+
+            <span id="Servicios3">
+                <h3>Confiabilidad</h3>
+                <p>Solo pagas cuando estes 100% satisfecho con tu trabajo </p>
+            </span>
+        </table>
+
+
+    </div>
+</body>
+
 </html>
